@@ -1,6 +1,6 @@
 {
   "name": "pi-blinking-cursor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Pi extension that uses an activity-aware hardware cursor in the TUI editor.",
   "type": "module",
   "license": "MIT",
