@@ -22,23 +22,7 @@ The terminal remains responsible for its cursor appearance when the entire termi
 
 No manual Pi setting is required. The extension enables the hardware cursor for its session, reasserts it after `/reload` reapplies persisted display settings, and restores the user's previous `showHardwareCursor` value when the session shuts down.
 
-## Try or install locally
-
-Run the package for one invocation:
-
-```bash
-pi -e .
-```
-
-Or install the local package persistently:
-
-```bash
-pi install .
-```
-
-Run `/reload` after changing the extension source.
-
-## Install after publication
+## Install
 
 ```bash
 pi install npm:pi-blinking-cursor
