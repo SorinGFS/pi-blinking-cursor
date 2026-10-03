@@ -1,0 +1,42 @@
+{
+  "name": "pi-blinking-cursor",
+  "version": "1.0.0",
+  "description": "A Pi extension that uses an activity-aware hardware cursor in the TUI editor.",
+  "type": "module",
+  "license": "MIT",
+  "author": "SorinGFS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorinGFS/pi-blinking-cursor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SorinGFS/pi-blinking-cursor/issues"
+  },
+  "homepage": "https://github.com/SorinGFS/pi-blinking-cursor#readme",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "terminal",
+    "cursor"
+  ],
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/blinking-cursor.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
